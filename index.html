@@ -1,0 +1,199 @@
+<html>
+    <head >
+  <meta name="viewport" content="width=device-width, initial-scale=1" >
+            <link rel="stylesheet"  href="sample.css">
+        <!-- <span style="text-align: center">  <h1>Sample Responsive page</h1> </span> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    </head>
+    <body>
+                <nav class="navbar navbar-expand-lg  navbar-dark bg-primary navfont">
+                        <a class="navbar-brand" href="index.html">ShareM@Land</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link " onclick="showhide('I')">Invest</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" onclick="showhide('S')">Sell</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" onclick="showhide('B')">Buy</a>
+                                    </li>
+                            </ul>
+                        </div>
+                    </nav>
+        <div class="container mt-5 " id="invest" >
+            <!-- <div class="col-12 mt-5"></div> -->
+            <div class="row clsa">
+                    <div class="card   border-primary ml-2 mt-2  " style="width: 15rem;">
+                        <img class="card-img-top" src="../images.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Blog Title</h5>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="viewBlog.html" class="btn btn-primary btn-block">View</a>
+                        </div>
+                    </div>
+                    <div class="card   border-primary ml-2 mt-2  " style="width: 15rem;">
+                        <img class="card-img-top" src="../images.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Blog Title</h5>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-end">
+                                <a href="viewBlog.html" class="btn btn-primary btn-block">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card   border-primary ml-2 mt-2  " style="width: 15rem;">
+                        <img class="card-img-top" src="../images.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Blog Title</h5>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-end">
+                                <a href="viewBlog.html" class="btn btn-primary btn-block">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card   border-primary ml-2 mt-2  " style="width: 15rem;">
+                            <img class="card-img-top" src="../images.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Blog Title</h5>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="d-flex justify-content-end">
+                                    <a href="viewBlog.html" class="btn btn-primary btn-block">View</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card   border-primary ml-2 mt-2  " style="width: 15rem;">
+                                <img class="card-img-top" src="../images.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title text-primary">Blog Title</h5>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <div class="d-flex justify-content-end">
+                                        <a href="viewBlog.html" class="btn btn-primary btn-block">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card   border-primary ml-2 mt-2  " style="width: 15rem;">
+                                    <img class="card-img-top" src="../images.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-primary">Blog Title</h5>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <div class="d-flex justify-content-end">
+                                            <a href="viewBlog.html" class="btn btn-primary btn-block">View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                        </div>
+        </div>
+        <div class="container mt-5" style="display: none" id="sell">
+                <div class="row clsa">
+                <div class="card   border-primary ml-2 mt-2  " style="width: 15rem;">
+                        <img class="card-img-top" src="../images.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Blog Title</h5>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex justify-content-end">
+                                <a href="viewBlog.html" class="btn btn-primary btn-block">View</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card   border-primary ml-2 mt-2  " style="width: 15rem; height: 26.4rem;">
+                            <!-- <img class="card-img-top" src="../images.jpg" alt="Card image cap"> -->
+                            <div class="card-body">
+                                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                                <img class="card-text addsym" src="add.png">
+                                <!-- <div class="d-flex justify-content-end"> -->
+                                    <!-- <a href="viewBlog.html" class="btn btn-primary btn-block">View</a> -->
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                        </div>
+        </div>
+        <div class="container mt-5" style="display: none" id="buy">
+                <div class="row clsa">
+                       
+                        <div class="card   border-primary ml-2 mt-2  " style="width: 15rem;">
+                            <img class="card-img-top" src="../images.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Blog Title</h5>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="d-flex justify-content-end">
+                                    <a href="viewBlog.html" class="btn btn-primary btn-block">View</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card   border-primary ml-2 mt-2  " style="width: 15rem;">
+                                <img class="card-img-top" src="../images.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title text-primary">Blog Title</h5>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <div class="d-flex justify-content-end">
+                                        <a href="viewBlog.html" class="btn btn-primary btn-block">View</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card   border-primary ml-2 mt-2  " style="width: 15rem;">
+                                    <img class="card-img-top" src="../images.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-primary">Blog Title</h5>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <div class="d-flex justify-content-end">
+                                            <a href="viewBlog.html" class="btn btn-primary btn-block">View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card   border-primary ml-2 mt-2  " style="width: 15rem;">
+                                        <img class="card-img-top" src="../images.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-primary">Blog Title</h5>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <div class="d-flex justify-content-end">
+                                                <a href="viewBlog.html" class="btn btn-primary btn-block">View</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                            
+                            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script>
+    let showhide = (value) =>{
+        if(value == 'I'){
+            document.getElementById('invest').style.display = "block" ; 
+            document.getElementById('sell').style.display = "none" ; 
+            document.getElementById('buy').style.display = "none" ; 
+        }else if(value == 'S'){
+            document.getElementById('invest').style.display = "none" ; 
+            document.getElementById('sell').style.display = "block" ; 
+            document.getElementById('buy').style.display = "none" ; 
+        }else{
+            document.getElementById('invest').style.display = "none" ; 
+            document.getElementById('buy').style.display = "block" ; 
+            document.getElementById('sell').style.display = "none" ; 
+
+
+        }
+    }
+    </script>
+    </body>
+</html>
