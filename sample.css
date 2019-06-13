@@ -1,0 +1,33 @@
+:root{
+    font-size: 16px;
+}
+.navfont{
+    font-size: 1.2rem;
+}
+.apply{
+    position: relative;
+    right: 3rem;
+}
+
+.container {
+    width: auto;
+    padding: 0 15px;        
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+     /* align-items: center; */
+}
+
+@media only screen and (max-width: 991px){
+    .clsa{
+justify-content: space-around;
+    }
+}
+ 
+.addsym{
+    position: relative;
+    left: 63px;
+    top: 158px;
+}
