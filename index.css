@@ -31,6 +31,9 @@ justify-content: space-around;
     top: 109px !important;
 
     }
+    .cont{
+        margin-left: unset !important;
+    }
 
 }
  
@@ -45,3 +48,4 @@ justify-content: space-around;
     font-style: oblique;
     color: red;
 }
+
