@@ -22,7 +22,7 @@
 
 @media only screen and (max-width: 991px){
     .clsa{
-justify-content: space-around;
+        justify-content: space-around;
     }
     .popuptr{
         font-size: 20px !important;
@@ -32,7 +32,7 @@ justify-content: space-around;
 
     }
     .cont{
-        margin-left: unset !important;
+        margin-left: 0rem !important;
     }
 
 }
